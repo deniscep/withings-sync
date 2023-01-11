@@ -6,7 +6,7 @@ RUN apk add --no-cache --virtual .build-deps \
     libxslt-dev libxml2-dev &&\
     pip install lxml && \
     apk del .build-deps && \
-    apk add --no-cache libxslt libxml2
+    apk add --no-cache libxslt libxml2 \
     apk add bash
 
 RUN mkdir -p /src
