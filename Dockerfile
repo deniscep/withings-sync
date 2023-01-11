@@ -7,7 +7,7 @@ RUN apk add --no-cache --virtual .build-deps \
     pip install lxml && \
     apk del .build-deps && \
     apk add --no-cache libxslt libxml2 \
-    apk add bash
+    apk add --no-cache bash
 
 RUN mkdir -p /src
 COPY . /src
