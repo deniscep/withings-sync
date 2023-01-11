@@ -8,6 +8,7 @@ A tool for synchronisation of the Withings API to:
 
 ## References
 
+
 * SSO authorization derived from https://github.com/cpfair/tapiriik
 * TrainerRoad API from https://github.com/stuwilkins/python-trainerroad 
 
